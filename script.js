@@ -87,13 +87,11 @@ function draw() {
     ctx.moveTo(point1.x, point1.y);
     ctx.lineTo(point2.x, point2.y);
     ctx.stroke();
-
     ctx.strokeStyle="blue";
     ctx.beginPath();
     ctx.moveTo(point3.x, point3.y);
     ctx.lineTo(point4.x, point4.y);
     ctx.stroke();
-
     for (let point = 0; point < points.length; point++) {
         ctx.strokeStyle=points[point].color;
         ctx.fillStyle=points[point].color;
